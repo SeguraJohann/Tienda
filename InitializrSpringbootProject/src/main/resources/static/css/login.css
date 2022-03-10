@@ -6,4 +6,83 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     Created on : 28 feb 2022, 11:10:15
     Author     : Personal
 */
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Shizuru', cursive;
+}
+body {
+    text-decoration: none;
+    margin:0;
+    padding:0;
+    background:linear-gradient(120deg,#EFB9FF,#B9FAFF);
+    height: 100vh;
+    overflow:hidden;
+    
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.5);
+    transform: translate (-50%,-50%);
+    
+}
+.cont h1{
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid silver;
+    
+}
+.content form{
+    padding: 0 40px;
+    box-sizing: border-box;
+    
+}
 
+form .txt_field{
+
+    position: relative;
+    border-bottom: 2px #8E0CC7;
+    margin: 30px 0;
+    
+    
+}
+form .txt_field input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+
+}
+form .txt_field label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #186ED0;
+    transform: translateY(-100%);
+    height: 40px;
+    font-size: 16px;
+    pointer-events: none;
+}
+
+a{
+    display: inline-block;
+    font-size: 1em;
+    background: #3184F5;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    
+}
+a:hover{
+    background:  #41B43C;
+    
+}

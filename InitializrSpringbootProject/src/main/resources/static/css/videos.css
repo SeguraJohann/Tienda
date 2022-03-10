@@ -7,4 +7,87 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     Author     : Personal
 */
 
-@import url ('')
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Shizuru', cursive;
+}
+
+header{
+    
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+header .logo{
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+.container{
+    position:absolute;
+    right: 0;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #111;
+    transition: 0.5s;
+    z-index: 2;
+}
+
+.container video{
+    
+    position:absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+.text{
+    position: relative;
+    z-index: 10;  
+}
+.text h2{
+    font-size: 5em;
+    font-weight: 800;
+    color: #fff;
+    line-height: 1em;
+    text-transform: uppercase;
+    
+}
+.text p{
+    font-size: 1.1em;
+    font-weight: 700;
+    color: #fff;
+    line-height: 8em;
+    text-transform: uppercase;
+    
+}
+.text a{
+    display: inline-block;
+    color: #ff89ff;
+    font-size: 1em;
+    background: #fff;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+.text a:hover{
+    letter-spacing: 6px;
+    
+}
